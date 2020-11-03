@@ -1,3 +1,34 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: "Daniele Tentoni"
+theme: "toha"
+
+languages:
+	en:
+		languageName: English
+		weight: 1
+	fr:
+		languageName: Francais
+		weight: 2
+	it:
+		languageName: Italiano
+		weight: 3
+
+markup:
+	goldmark:
+		renderer:
+			unsafe: true
+	tableOfContents:
+		startLevel: 2
+		endLevel: 6
+		ordered: false
+
+params:
+	#background: "images/..."
+	#logo:
+		#main:"/assets/images/...-logo.png"
+		#inverted:"/assets/images/inverted-logo.png"
+		#favicon:"..."
+	#gitRepo:"..."
+	newsletter:
+		enable: false
