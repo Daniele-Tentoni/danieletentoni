@@ -3,32 +3,35 @@ languageCode: en-us
 title: "Daniele Tentoni"
 theme: "toha"
 
+# Manage languages
+# For any more details, you can check the official
+# documentation: https://gohugo.io/content-management/multilingual/
 languages:
-	en:
-		languageName: English
-		weight: 1
-	fr:
-		languageName: Francais
-		weight: 2
-	it:
-		languageName: Italiano
-		weight: 3
+  en:
+    languageName: English
+    weight: 1
+  fr:
+    languageName: Francais
+    weight: 2
+  bn:
+    languageName: Italiano
+    weight: 3
 
 markup:
-	goldmark:
-		renderer:
-			unsafe: true
-	tableOfContents:
-		startLevel: 2
-		endLevel: 6
-		ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
 
 params:
-	#background: "images/..."
-	#logo:
-		#main:"/assets/images/...-logo.png"
-		#inverted:"/assets/images/inverted-logo.png"
-		#favicon:"..."
-	#gitRepo:"..."
-	newsletter:
-		enable: false
+  #background: "images/..."
+  #logo:
+    #main:"/assets/images/...-logo.png"
+    #inverted:"/assets/images/inverted-logo.png"
+    #favicon:"..."
+  #gitRepo:"..."
+  newsletter:
+    enable: false
